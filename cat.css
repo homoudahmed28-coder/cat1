@@ -33,7 +33,7 @@ a {
     margin: 0;
     padding: 15px;
     border-radius: 0;
-    margin-left:50%;
+    margin-left:auto;
     margin-right: auto;
 }
 
@@ -237,6 +237,7 @@ iframe {
     75%{ background-color: palevioletred};
     100%{ background-color: orangered;}
 }
+
 
 
 
