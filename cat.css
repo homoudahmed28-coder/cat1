@@ -1,4 +1,4 @@
-body, h1, h2, h3, p, ol, ul, li {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    animation: colorChange 20s infinite alternate;
 }
 a {
     text-decoration: none;
@@ -104,15 +105,7 @@ p {
     transform: rotate(90deg); 
 }
 
-@keyframes wave {
-    0% { transform: rotate(0deg); }
-    15% { transform: rotate(-15deg); }
-    30% { transform: rotate(15deg); }
-    45% { transform: rotate(-10deg); }
-    60% { transform: rotate(10deg); }
-    75% { transform: rotate(-5deg); }
-    100% { transform: rotate(0deg); }
-}
+
 
 .cat-emoji {
     font-size: 1.2em;
@@ -200,4 +193,22 @@ p {
         flex-basis: 100%;
         text-align: center;
     }
+}
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    15% { transform: rotate(-15deg); }
+    30% { transform: rotate(15deg); }
+    45% { transform: rotate(-10deg); }
+    60% { transform: rotate(10deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+@keyframes colorChange{
+
+
+    0%{ background-color: orangered};
+    25%{ background-color: green};
+    50%{ background-color: blue};
+    75%{ background-color: palevioletred};
+    100%{ background-color: orangered;}
 }
