@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    animation: colorChange 2s infinite alternate
+    animation: colorChange 15s infinite alternate
 }
 a {
     text-decoration: none;
@@ -213,6 +213,7 @@ p {
     75%{ background-color: palevioletred};
     100%{ background-color: orangered;}
 }
+
 
 
 
