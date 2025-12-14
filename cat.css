@@ -34,6 +34,7 @@ a {
     padding: 15px;
     border-radius: 0;
     margin-left:50%;
+    margin-right: auto;
 }
 
 h1 {
@@ -236,6 +237,7 @@ iframe {
     75%{ background-color: palevioletred};
     100%{ background-color: orangered;}
 }
+
 
 
 
